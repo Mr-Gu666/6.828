@@ -446,3 +446,25 @@ Pentium处理器支持两条新比较指令，用来直接改变CPU中FLAGS寄�
 | fscale | st0 = st0 * 2 ^ st1 快速执行st0乘以2的几次方的操作。st1不会从协处理器堆栈中移除。 |
 
 fstcw 检查未决的无掩码浮点异常之后，将 FPU 控制字存储到 **m2byte**。
+
+<h3>
+    第7章 结构体与C++
+</h3>
+
+Microsoft & Borland
+
+#pragma 设定对齐方式
+
+> #pragma pack(push)
+>
+> #pragma pack(1) ;字节界
+>
+> //结构体
+>
+> #pragma pack(pop)
+
+1-字节界 2-字边界 4-双字界 8-四字界 16-节边界
+
+GCC
+
+_ _ atrribute _ _((aligned(1)))
