@@ -30,6 +30,7 @@ segment .text
 
 %define EXIT_OK 0
 %define EXIT_OVERFLOW 1
+;size 不匹配
 %define EXIT_SIZE_MISMATCH 2
 
 ;
@@ -52,6 +53,7 @@ segment .text
 ;
 
 add_big_ints:
+        ;enter 0,0
         push    ebp
         mov     ebp, esp
         push    ebx
