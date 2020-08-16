@@ -134,5 +134,6 @@ make qemu-nox
 
 完成！
 
-lab1
-今天尝试把它放在GitHub上了。
+2020.8.4 
+
+开始lab1。pcasm-book已完成。
