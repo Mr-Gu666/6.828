@@ -402,4 +402,11 @@ for (; ph < eph; ph++)
 <h4>
     加载内核
 </h4>
+现在进一步查看引导加载器在boot/main.c中C语言部分的详细细节。但在这之前，要来回顾一下C语言基础。
+
+**练习4**
+
+读`The C Programming Language by Brian Kernighan and Dennis Ritchie `这本书的指针章节5.1—5.5。然后下载 运行[pointers.c](https://link.zhihu.com/?target=https%3A//sipb.mit.edu/iap/6.828/files/pointers.c) 的源代码，然后确保你理解了输出值的来源的所有内容。尤其是，确保你理解了第 1 行和第 6 行的指针地址的来源、第 2 行到第 4 行的值是如何得到的、以及为什么第 5 行指向的值表面上看像是错误的。
+
+解析看[6.828笔记](6.828笔记.pdf)。
 
